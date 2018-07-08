@@ -4,6 +4,10 @@
 
 In this project, your goal is to write a software pipeline to detect vehicles in a video (start with the test_video.mp4 and later implement on full project_video.mp4).
 
+Details
+---
+[Write up]()
+
 
 The Project
 ---
