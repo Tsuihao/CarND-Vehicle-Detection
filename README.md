@@ -2,11 +2,40 @@
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
 
-In this project, your goal is to write a software pipeline to detect vehicles in a video (start with the test_video.mp4 and later implement on full project_video.mp4).
+In this project, a conventional computer vision method **[Histogram of oriented gradients(HOG)](https://www.learnopencv.com/histogram-of-oriented-gradients/)** is implemented with machine learning classifier **[Support Vector Machine(SVM)](https://en.wikipedia.org/wiki/Support_vector_machine)** to perform the vehicle detection. In addition, the result is benchmarked with the state-of-art deep learning methods: **[You only look once version 3 (YOLOv3)](https://pjreddie.com/darknet/yolo/?utm_source=next.36kr.com)** and **[Single Shot MultiBox Detector(SSD)](https://arxiv.org/abs/1512.02325)**.
+
+Result
+---
+**SVM classifier (click image to check the video)**
+[![IMAGE ALT TEXT](./output_images/SVM_debug_view.PNG)](https://www.youtube.com/watch?v=BOG2ufoKnHw)
+
+Benchmark with:
+
+**YOLOv3 and SSD (click image to check the video)**
+[![IMAGE ALT TEXT](./output_images/YOLOv3_SSD.png)](https://www.youtube.com/watch?v=pbxRuyjMF3Q)
+
 
 Details
 ---
-[Write up]()
+In this repository contains a lot of ipython notebook files, the functionalities are as following:
+* **[train_classifier_hog.ipynb](https://github.com/Tsuihao/CarND-Vehicle-Detection/blob/master/train_classifier_hog.ipynb)**: Explore the dataset and train the SVM classifier
+
+* **[vehicle_detection_hog.ipynb](https://github.com/Tsuihao/CarND-Vehicle-Detection/blob/master/vehicle_detection_hog.ipynb)**: Implement HOG sub-sampling and search the vehicle base on pre-defined grids.
+
+* **[vehicle_detection_YOLOv3.ipynb](https://github.com/Tsuihao/CarND-Vehicle-Detection/blob/master/keras-yolo3-master/vehicle_detection_YOLOv3.ipynb)**: Use [keras-yolo3](https://github.com/qqwweee/keras-yolo3) to perform object detection.
+
+* **[vehicle detection_SSD.ipynb](https://github.com/Tsuihao/CarND-Vehicle-Detection/blob/master/vihicel_detection_SSD.ipynb)**: Use [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection) and pre-trained **ssd_mobilenet_v1_coco_2017_11_17** model to perform object detection.
+
+
+
+
+Requirements and more tech details: **[Write up](https://github.com/Tsuihao/CarND-Vehicle-Detection/blob/master/writeup.md)**
+
+
+
+Notes: 
+* For using SSD, follow: [keras-yolo3](https://github.com/qqwweee/keras-yolo3)
+* For using YOLOv3, follow: [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)
 
 
 The Project
