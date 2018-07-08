@@ -37,6 +37,9 @@ Notes:
 * For using SSD, follow: [keras-yolo3](https://github.com/qqwweee/keras-yolo3)
 * For using YOLOv3, follow: [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)
 
+Review
+---
+[Udacity review #1](https://review.udacity.com/?utm_campaign=ret_000_auto_ndxxx_submission-reviewed&utm_source=blueshift&utm_medium=email&utm_content=reviewsapp-submission-reviewed&bsft_clkid=7933270d-3d06-467d-9e3f-9dc50c8aa82a&bsft_uid=1e07ff6b-26c2-40f5-8927-a5800725c305&bsft_mid=e174cd6d-fdc6-4b26-b0eb-075d34dc13b3&bsft_eid=6f154690-7543-4582-9be7-e397af208dbd&bsft_txnid=0fbbea0f-1c8b-457d-90b5-f126cdb6b19e#!/reviews/1327842)
 
 The Project
 ---
